@@ -1,102 +1,115 @@
+/*ALL*/
+
 *
 {
+  box-sizing: border-box;
   padding: 0px;
   margin: 0px;
-
-}
-
-body
-{
-  background-color: wheat;
   font-family: Roboto, sans-serif;
+  color: rgba(175,157,97,255);
 }
 
-#menu
-{
-  margin: 0px 13px;
-}
-
-/*Menu*/
-.articletitle
-{
-  font-weight: bolder;
-  text-align: center;
-  border-width: 0px 0px 2px;
-}
-
-.articlelogo
+article
 {
   position: absolute;
-  width: 80%;
-  opacity: 10%;
   left: 50%;
-  top: 50%;
-  transform: translateX(-45%) translateY(-52%) rotate(15deg);
+  top: 95%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: rgb(32, 32, 32);
+  height: 100rem;
+  width: 90%;
 }
 
-.items
+#art
 {
-  margin-top: 15px;
+  margin: 20px 50px;
+}
+
+.artcon
+{
+  height: fit-content;
   width: 100%;
-  height: max-content;
+  border: solid rgba(175,157,97,255);
+  border-width: 0px 0px 5px;
+  margin-bottom: 1rem;
 }
 
-.itemname
+.artheader
 {
-  display: inline;
+  font-size: 4rem;
   text-decoration: underline;
 }
 
-.itemdes
-{
-  font-style: italic;
-}
-
-.pricelist
-{
-  position: absolute;
-  width: 20%;
-  height: max-content;
-  margin-left: 80%;
-}
-
-.prices
-{
-  font-weight: bold;
-}
-
 /*Header*/
+
 header
 {
-  border: solid goldenrod;
-  border-width: 0px 0px 3px;
+  position: relative;
+  height: 12.5rem;
+  border: solid rgba(175,157,97,255);
+  border-width: 0px 0px 5px;
+  margin-bottom: 1rem;
 }
 
-h2
+#header
 {
-  color: rgb(50, 44, 44);
-  font-size: 375%;
+  font-style: italic;
+  font-size: 5rem;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  position: absolute;
+  left: 50%;
+  top: 25%;
+  transform: translateX(-50%) translateY(-50%);
 }
 
 #logo
 {
-  width: 95%;
-}
-
-/*Coffees*/
-#coffees
-{
-  position: relative;
-  margin-top: 20px;
-  width: 100%;
-  height: 300px;
-  border: solid goldenrod;
-  border-width: 0px 0px 3px;
-}
-
-#esp-art
-{
   position: absolute;
+  left: 50%;
+  top: 73%;
+  transform: translateX(-50%) translateY(-50%);
   width: 100%;
-  height: 100%;
+}
+
+/*Articles*/
+
+/*Items*/
+.icon
+{
+  display: flex;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.lcon
+{
+  width: 70%;
+}
+
+.rcon
+{
+  width: 30%;
+  text-align: end;
+}
+
+.iname, .iprice
+{
+  font-size: 2rem;
+}
+
+.ides
+{
+  font-size: 1.2rem;
+}
+
+/*MediaQuerie*/
+@media screen and (max-width: 767px)
+{
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px)
+{
+
 }
