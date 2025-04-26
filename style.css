@@ -13,21 +13,21 @@ article
 {
   position: absolute;
   left: 50%;
-  top: 95%;
+  top: 97%;
   transform: translateX(-50%) translateY(-50%);
   background-color: rgb(32, 32, 32);
-  height: 100rem;
+  height: fit-content;
   width: 90%;
 }
 
 #art
 {
-  margin: 20px 50px;
+  margin: 20px 15px;
 }
 
 .artcon
 {
-  height: fit-content;
+  height: 100%;
   width: 100%;
   border: solid rgba(175,157,97,255);
   border-width: 0px 0px 5px;
@@ -36,7 +36,8 @@ article
 
 .artheader
 {
-  font-size: 4rem;
+  width: 100%;
+  font-size: 2rem;
   text-decoration: underline;
 }
 
@@ -84,32 +85,24 @@ header
 
 .lcon
 {
-  width: 70%;
+  width: 75%;
 }
 
 .rcon
 {
-  width: 30%;
+  width: 25%;
   text-align: end;
 }
 
 .iname, .iprice
 {
-  font-size: 2rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .ides
 {
-  font-size: 1.2rem;
+  color: rgba(170,150,90,255);
+  font-size: 0.8rem;
 }
 
-/*MediaQuerie*/
-@media screen and (max-width: 767px)
-{
-
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px)
-{
-
-}
