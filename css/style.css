@@ -151,7 +151,7 @@ footer
 #art
 {
   width: 100%;
-  padding: 100px 20px 0px;
+  padding: 90px 20px 0px;
 }
 
 .item
@@ -205,4 +205,5 @@ footer
   width: 45%;
   padding-top: 3px;
   margin-right: 10px;
+  background-color: rgb(32, 32, 32);
 }
